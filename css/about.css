@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  text-align: right;
+  direction: rtl;
+  font-family: "Tajawal", system-ui;
+}
+:root {
+  --main-color: #05609e;
+  --transition: 0.3s;
+  --dark-color: #071c33;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+section {
+  padding: 30px 0;
+}
+/* wrapper */
+.about-tittle2 {
+  background-color: var(--main-color);
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+}
+.wrapper-title {
+  color: #fff;
+}
+.wrapper-links a {
+  color: #fff;
+}
+/* wrapper */

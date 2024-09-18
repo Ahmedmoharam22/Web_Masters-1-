@@ -1,0 +1,68 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  text-align: right;
+  direction: rtl;
+  font-family: "Tajawal", system-ui;
+}
+:root {
+  --main-color:#05609E;
+  --dark-color:#071C33;
+  --transition:0.3s ;
+  --light-color:#eee;
+}
+ul{
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+section {
+  padding: 60px 0;
+}
+.form {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form .form-info {
+  background-color: var(--light-color);
+  padding: 20px;
+  height: 350px;
+}
+.form-info .tap {
+  margin:5px 0 ;
+  border-bottom: 2px solid var(--dark-color);
+}
+.form-info h4 {
+  margin: 0;
+  color: var(--dark-color);
+  font-size: 19px;
+  margin-bottom: 15px;
+}
+.form-info span {
+  display: block;
+  color: var(--main-color);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.form-inputs {
+  background-color: var(--light-color);
+  padding: 25px;
+  height: auto;
+}
+.form-inputs .form-control {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.form-inputs .form-control,
+.message::placeholder {
+  padding: 7px;
+}
+.form-inputs .message {
+  width: 100%;
+  resize: none;
+}

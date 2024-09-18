@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  text-align: right;
+  direction: rtl;
+  font-family: "Tajawal", system-ui;
+}
+:root {
+  --main-color: #05609e;
+  --dark-color: #071c33;
+  --light-color: #eee;
+  --transition: 0.3s;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+section {
+  padding: 60px 0;
+}
+.about-tittle {
+  position: relative;
+  display: inline-block;
+}
+.about-tittle::after {
+  position: absolute;
+  content: "";
+  display: block;
+  background-color: var(--main-color);
+  width: 120px;
+  height: 5px;
+  bottom: -15px;
+}
+/* projects */
+.pro-wrapper {
+  position: relative;
+  margin-bottom: 50px;
+  width: 350px;
+  height: 200px;
+  padding: 25px 0;
+}
+.pro-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.pro-wrapper .pro-content {
+  padding: 10px;
+  background-color: var(--light-color);
+}
+.pro-wrapper .pro-content h4 {
+  color: var(--main-color);
+}
+.pro-wrapper .pro-content span {
+  font-size: 16px;
+}
+.projects .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+/* projects */

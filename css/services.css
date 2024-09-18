@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  text-align: right;
+  direction: rtl;
+  font-family: "Tajawal", system-ui;
+}
+:root {
+  --main-color: #05609e;
+  --dark-color: #071c33;
+  --light-color: #eee;
+  --transition: 0.3s;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+.section {
+  padding: 60px 0;
+}
+/* wrapper */
+.about-tittle2 {
+  background-color: var(--main-color);
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+}
+.wrapper-links a {
+  color: #fff;
+}
+.special {
+  margin: 50px 0;
+}
+.testimonials {
+  padding: 10px 0;
+  background-color: var(--light-color);
+}
+.clients {
+  padding-top: 0;
+}
